@@ -1,6 +1,4 @@
-package 자료구조.LinkedList;
-
-import com.sun.source.tree.BreakTree;
+package 자료구조.linkedList;
 
 public class LinkedListExample {
     public static void main(String[] args) {
