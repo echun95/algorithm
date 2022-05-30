@@ -119,7 +119,7 @@ class BinarySearchTree {
 
                 //changeNode, changeParentNode 찾기 - 가장 왼쪽 노드로 이동
                 while(changeNode.left != null){
-                    changeParentNode = changeNode;
+                    changeParentNode = changeNode.left;
                     changeNode = changeNode.left;
                 }
                 //3.1.1 해당 노드의 오른쪽 브랜치에 자식 노드가 있으면
@@ -137,8 +137,8 @@ class BinarySearchTree {
             }else{
                 //3.1 삭제할 대상의 오른쪽 자식들 중에 가장 작은 값을 현재 삭제 노드로 옮긴다. (오른쪽 트리의 마지막 레벨의 왼쪽 노드)
                 //changeNode, changeParentNode 기초세팅
+                Node changeParentNode = currentNode.left;
                 Node changeNode = currentNode.right;
-                Node changeParentNode = currentNode.right;
 
                 //changeNode, changeParentNode 찾기 - 가장 왼쪽 노드로 이동
                 while(changeNode.left != null){
