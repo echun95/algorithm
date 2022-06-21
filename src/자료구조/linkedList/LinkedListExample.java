@@ -1,5 +1,8 @@
 package 자료구조.linkedList;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class LinkedListExample {
     public static void main(String[] args) {
 
@@ -15,7 +18,6 @@ public class LinkedListExample {
         linkedList.printList();
 
         System.out.println(linkedList.searchNode(str).getData());
-
 
         linkedList.deleteNode("test");
         linkedList.printList();
