@@ -8,7 +8,7 @@ public class SelectionSort {
     }
 
     private static void selectionSort(int[] list) {
-        for(int i = 0; i < list.length; i++){
+        for(int i = 0; i < list.length-1; i++){
             int index=i;
             for(int j = 1 + i; j < list.length; j++){
                 if(list[index] > list[j]){
