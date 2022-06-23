@@ -2,7 +2,7 @@ package 알고리즘이론.recursion;
 
 public class Factorial {
     public static void main(String[] args) {
-        int factorial = factorial(4);
+        int factorial = factorial(10);
         System.out.println("factorial = " + factorial);
     }
 
