@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Baekjoon1920 {
     public static void main(String[] args) {
-        int[] data = new int[]{4,1,5,2,3};
-        int[] search_data = new int[]{1,3,7,9,5};
+        int[] data = new int[]{4,1,5,2,3,6};
+        int[] search_data = new int[]{1,3,7,9,5,6};
         Arrays.sort(data);
 
         int low = 0;
