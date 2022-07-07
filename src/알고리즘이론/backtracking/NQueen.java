@@ -1,4 +1,4 @@
-package 알고리즘이론.backtraking;
+package 알고리즘이론.backtracking;
 
 public class NQueen {
 
