@@ -25,6 +25,7 @@ public class Pg_로또의최고순위와최저순위 {
         for (int i : result) {
             System.out.println(i);
         }
+
     }
     public static int[] solution(int[] lottos, int[] win_nums){
 
