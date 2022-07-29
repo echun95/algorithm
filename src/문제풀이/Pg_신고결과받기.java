@@ -14,7 +14,6 @@ public class Pg_신고결과받기 {
         id_list[3] = "neo";
 
         report[0] = "muzi frodo";
-//        report[0] = "muzi frodo";
         report[1] = "apeach frodo";
         report[2] = "frodo neo";
         report[3] = "muzi neo";
